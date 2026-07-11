@@ -1,0 +1,11 @@
+# 1. Ignore all files and folders globally first
+*
+
+# 2. Allow all folder structures to ensure Git can traverse into every layer of directories
+!**/
+
+# 3. Whitelist: Keep only the source code and structural placeholder files you need
+!.gitignore
+!.gitkeep
+!*.cpp
+!*.hpp
